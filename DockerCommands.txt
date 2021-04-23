@@ -1,0 +1,3 @@
+mvn clean install
+docker build -t springboot/hello-world .
+docker run -p 9003:9003 -d springboot/hello-world
